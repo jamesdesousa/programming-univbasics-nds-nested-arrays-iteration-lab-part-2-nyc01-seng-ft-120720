@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
       end 
       element = element + 1 
     end 
-    smallest.push(min)
+    smallest << min 
     row = row + 1 
   end 
       
